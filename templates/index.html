@@ -7,11 +7,11 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Este es mi template</h1>
+    <h1>Familiares:</h1>
     <p>
         <ul>
             {% for objeto in lista_objetos %}
-            <li>{{objeto.nombre}}</li>
+            <h2><li>Nombre: {{objeto.nombre}}<br> Edad: {{objeto.numero}} <br> Fecha de nacimiento:  {{objeto.fecha}}</li><h2                
             {% endfor %}
         </ul>
     </p>
